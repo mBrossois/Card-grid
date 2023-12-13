@@ -1,0 +1,43 @@
+{
+  "name": "card-grid-library",
+  "private": true,
+  "version": "0.0.0",
+  "main": "./dist/card-grid-library.umd.mjs",
+  "module": "./dist/card-grid-library.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/card-grid-library.mjs",
+      "require": "./dist/card-grid-library.umd.js"
+    },
+    "./style.css": "./dist/style.css",
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "*.mjs"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.4",
+    "@storybook/addon-interactions": "^7.6.4",
+    "@storybook/addon-links": "^7.6.4",
+    "@storybook/blocks": "^7.6.4",
+    "@storybook/test": "^7.6.4",
+    "@storybook/vue3": "^7.6.4",
+    "@storybook/vue3-vite": "^7.6.4",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.4",
+    "vite": "^5.0.8"
+  }
+}
