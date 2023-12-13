@@ -44,6 +44,8 @@ defineProps({
     justify-content: space-around;
 
     overflow: hidden;
+    min-width: 320px;
+
 }
 
 .card:hover > .content-card > p,
@@ -69,7 +71,7 @@ h2 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
 }
 
@@ -91,7 +93,7 @@ p.show {
     position: relative;
     z-index: 100;
 
-    width: 25rem;
+    width: 20rem;
     text-align: center;
 }
 
