@@ -46,6 +46,7 @@ defineProps({
     overflow: hidden;
     min-width: 320px;
 
+    background-color: black;
 }
 
 .card:focus-within *,
@@ -130,5 +131,13 @@ button:hover {
 img {
     position: absolute;
     z-index: 50;
+    transition: all 200ms ease-in-out
+}
+
+.card:focus-within > img,
+
+.card:focus > img,
+.card:hover > img {
+    opacity: .5;
 }
 </style>
