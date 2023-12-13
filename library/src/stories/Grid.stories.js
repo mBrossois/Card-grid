@@ -16,9 +16,9 @@ export const FullWidth = {
         <Grid>
             <CardVue
               class="full"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="full"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />
@@ -34,17 +34,17 @@ export const TwoHalves = {
         <Grid>
             <CardVue
               class="half"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="half"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />
             <CardVue
               class="half"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="half"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />
@@ -60,25 +60,25 @@ export const OneFourthAndHalf = {
         <Grid>
             <CardVue
               class="one-fourth"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="one-fourth"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />
             <CardVue
               class="one-fourth"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="one-fourth"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />
             <CardVue
               class="half"
-              title="Valtech_"
-              subtitle="FRONT-END"
-              explanitory-text="Welcome to Valtech, we are happy to see that you are interested in our company!"
+              title="half"
+              subtitle="Class used"
+              explanitory-text="Make sure to add the above class to the card! This is required to properly run the grid."
               :show-explanitory-text="false"
               img-src="https://cdn.pixabay.com/photo/2021/11/25/09/27/building-6822998_1280.jpg"
             />

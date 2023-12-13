@@ -1,7 +1,16 @@
-# Vue 3 + Vite
+# Card-grid
+This is a single page that displays a grid of cards. 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Requirements 
+To run this application you'll need to have `node version v20.8.1` installed. 
+This project requires the library to build build in `./library`.
 
-## Recommended IDE Setup
+## Building the application
+The application can be build by running
+```pnpm run build```
+and you can test the build by running
+```pnpm run preview```.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Run local
+To run the application locally, simply run 
+```pnpm run dev```.
