@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div tabindex="0" class="card">
         <div class="content-card">
             <header>
                 <h2>{{ subtitle }}</h2>
@@ -48,18 +48,26 @@ defineProps({
 
 }
 
+.card:focus-within *,
+
+.card:focus > .content-card > p,
 .card:hover > .content-card > p,
 .card:hover > .content-card > button,
+.card:focus > .content-card > button,
 .show {
     visibility: visible;
     opacity: 1;
 }
 
+.card:focus-within > .content-card > p,
+.card:focus > .content-card > p,
 .card:hover > .content-card > p {
     height: 10rem;
     padding: 1rem 0;
 }
 
+.card:focus-within > .content-card > button,
+.card:focus > .content-card > button,
 .card:hover > .content-card > button {
     padding: 1rem;
     height: auto;
@@ -112,6 +120,7 @@ button {
 
 }
 
+button:focus,
 button:hover {
     cursor: pointer;
     background-color: white;

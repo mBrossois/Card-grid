@@ -18,7 +18,8 @@
 .full,
 .half,
 .one-fourth {
-    flex: 1;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 @media screen and (min-width: 768px) {
